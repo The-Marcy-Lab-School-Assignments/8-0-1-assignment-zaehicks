@@ -28,8 +28,8 @@ Your grade on this assignment will be determined by the number of tasks you are 
 
 Feel free to mark these tasks as complete/incomplete, however your instructor will likely modify your tasks when grading.
 
-This assignment has 11 tasks:
-- 4 setup tasks
+This assignment has 12 tasks:
+- 5 setup tasks
 - 6 server application tasks
 - 1 deployment task
 
@@ -69,6 +69,7 @@ When deploying, you will use the `npm start` command to start the server using t
 Before continuing, make sure that these tasks are completed!
 
 - [ ] Has a Vite+React project folder with a built `dist/` folder
+- [ ] The `.gitignore` does NOT include `dist`
 - [ ] Has a `server` folder with an `index.js` file and a `package.json` file inside
 - [ ] `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
 - [ ] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
